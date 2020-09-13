@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
+    <title>Success! Dundee Decoupage</title>
     <meta name="description" content="A demo of Stripe client-only Checkout" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -14,12 +14,9 @@
   <body>
     <div class="sr-root">
       <div class="sr-main">
-        <header class="sr-header">
-          <a href="./" class="sr-header__logo"></a>
-        </header>
         <div class="sr-payment-summary completed-view">
-          <h1>Your test payment succeeded</h1>
-          <h4>Checkout Session ID: <span id="session"></span></h4>
+          <h1>Your payment has been successful!</h1>
+          <h4>Checkout Session ID: <span id="session"></span> - here are some random images.</h4>
         </div>
       <div class="sr-content">
         <div class="pasha-image-stack">
@@ -45,6 +42,12 @@
           />
         </div>
       </div>
+    </div>
+    <div class="banner">
+      <span>
+        This is a demo for how to sell one off products. Neat.
+        </a>
+      </span>
     </div>
     <script>
       var urlParams = new URLSearchParams(window.location.search);
