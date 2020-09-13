@@ -180,37 +180,6 @@ input[type="number"]::placeholder {
   background-position: -1px -1px;
 }
 
-/* Select */
-.sr-select {
-  display: block;
-  height: 44px;
-  margin: 0;
-  background-image: url("https://storage.googleapis.com/stripe-sample-images/icon-chevron-down.svg");
-  background-repeat: no-repeat, repeat;
-  background-position: right 12px top 50%, 0 0;
-  background-size: 0.65em auto, 100%;
-}
-.sr-select:after {
-}
-.sr-select::-ms-expand {
-  display: none;
-}
-.sr-select:hover {
-  cursor: pointer;
-}
-.sr-select:focus {
-  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.3), 0 1px 1px 0 rgba(0, 0, 0, 0.07),
-    0 0 0 4px rgba(50, 151, 211, 0.3);
-  outline: none;
-}
-.sr-select option {
-  font-weight: 400;
-}
-.sr-select:invalid {
-  color: var(--gray-light);
-  background-opacity: 0.4;
-}
-
 /* Combo inputs */
 .sr-combo-inputs {
   display: flex;
@@ -358,7 +327,7 @@ pre {
 :root {
   --accent-color: #ed5f74;
   --headline-color: var(--accent-color);
-  --logo-image: url("https://storage.googleapis.com/stripe-sample-images/logo-pasha.svg");
+  --logo-image: url("../favicon.ico");
 }
 
 .pasha-image-stack {
