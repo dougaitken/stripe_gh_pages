@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe client-only Checkout" />
+    <title>Decoupage</title>
+    <meta name="description" content="Lovely Decoupage from Dundee" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -23,7 +23,7 @@
             <h1>One-time Donation</h1>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4JYXyvvRb2sX"
+              data-price-id="price_1HQwHgDqHWIBFI08frwVvEr9"
             >
               Donate $5.00 once
             </button>
@@ -68,11 +68,11 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP';
+      var PUBLISHABLE_KEY = 'pk_test_516gDzEDqHWIBFI08MBxG4QzRP6d5iL9tv2tDUAJDaJ9JGAKzn2wuPvYQ1MxOuq5iX4ST4FNWtER9Z8P0pKeITYqE00Nd24yqdj';
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
 
-      if (PUBLISHABLE_KEY === 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP') {
+      if (PUBLISHABLE_KEY === 'pk_test_516gDzEDqHWIBFI08MBxG4QzRP6d5iL9tv2tDUAJDaJ9JGAKzn2wuPvYQ1MxOuq5iX4ST4FNWtER9Z8P0pKeITYqE00Nd24yqdj') {
         console.log(
           'Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys'
         );
