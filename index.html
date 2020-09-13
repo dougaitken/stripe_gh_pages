@@ -17,24 +17,28 @@
       <div class="sr-main" style="display: flex;">
         <div class="sr-container">
           <section class="container">
-            <h1>One-time Donation</h1>
-            <button
-              data-checkout-mode="payment"
-              data-price-id="price_1HQwHgDqHWIBFI08frwVvEr9"
-            >
-              Donate $5.00 once
-            </button>
-            <button
-              data-checkout-mode="payment"
-              data-price-id="sku_GU4KO8nfdg8G2Z"
-            >
-              Donate $15.00 once
+            <div>
+              <h1>One product</h1>
+              <h4>Purchase a Pasha original photo</h4>
+              <div class="pasha-image">
+                <img
+                  src="https://picsum.photos/280/320?random=4"
+                  width="140"
+                  height="160"
+                />
+              </div>
+            </div>
+            <button id="basic-photo-button"
+            data-checkout-mode="payment"
+data-price-id="price_1HQwHgDqHWIBFI08frwVvEr9"
+>
+              Buy for £<span id="total">10</span>.00
             </button>
           </section>
           <section class="container">
             <div>
-              <h1>Single photo</h1>
-              <h4>Purchase a Pasha original photo</h4>
+              <h1>Second product</h1>
+              <h4>Purchase a Pasha original photo.<br>This one won't work</h4>
               <div class="pasha-image">
                 <img
                   src="https://picsum.photos/280/320?random=4"
@@ -53,13 +57,7 @@
     </div>
     <div class="banner">
       <span>
-        This is a
-        <a href="https://github.com/stripe-samples"> Stripe Sample </a> on how
-        to use Stripe Checkout on GitHub Pages.
-        <a
-          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
-        >
-          View code on GitHub.
+        This is a demo for how to sell one off products. Neat.
         </a>
       </span>
     </div>
